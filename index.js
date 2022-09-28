@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Welcome to Prashant Copepipeline at nodejs platfrom!\n'
+  const msg = 'Welcome to SurajKumar Github AWS Copepipeline at NodeJs Platfrom!\n'
   res.end(msg);
 });
 
